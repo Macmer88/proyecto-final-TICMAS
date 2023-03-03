@@ -92,6 +92,8 @@ body{
     font-size: xx-large
 
 }
+
+
 #contenido-CV{
     margin-left: 90px;
     padding: 0;
@@ -163,3 +165,18 @@ footer{
     font-size: medium;
   }
 
+#sobre-mi{
+    display: block;
+}
+#formacion{
+    display: none;
+}
+#experiencia{
+    display: none;
+}
+#habilidades{
+    display: none;
+}
+#objetivos{
+    display: none;
+}
