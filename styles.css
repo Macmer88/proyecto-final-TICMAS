@@ -80,21 +80,34 @@ body{
     height: auto; 
     background-color: grey; 
 }
-.botones-navegacion{
+.sobreMi,.formacionAc,.exp,.habil,.objet{
     color:white;
     font-weight: bold;
     float: left;
     margin: 4px 40px 5px 30px;
     font-size: x-large;
 }
-.botones-navegacion:hover{
+
+.habil:hover{
     background-color: darkgrey;
-    font-size: xx-large
+}
+.exp:hover{
+    background-color: darkgrey;
+}
+.formacionAc:hover{
+    background-color: darkgrey;
+}
+.sobreMi:hover{
+  background-color: darkgrey;
+}
+.objet:hover{
+    background-color: darkgrey;
 
 }
 
 
 #contenido-CV{
+    margin-top: 20px;
     margin-left: 90px;
     padding: 0;
     width: 92%;
