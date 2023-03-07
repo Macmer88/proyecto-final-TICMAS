@@ -5,12 +5,14 @@
 }
 
 body{
-    background-color:grey;
+    background-color:rgb(210, 225, 225);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 }
 
 #fondo-pagina{
     margin: 0 auto;
-    background-color: grey;
+    background-color: rgb(210, 225, 225);
     position: relative;
     width: 95%;
     max-height: 800px;
@@ -25,7 +27,7 @@ body{
     position: relative;
     width:20%;
     height: 200px;
-    background-color: darkslategrey;
+    background-color: rgb(210, 225, 225);
 }
 .img-perfil{
     margin: 0;
@@ -43,7 +45,7 @@ body{
     position: relative;
     width:75%;
     height: 200px;
-    background-color: darkslategrey;
+    background-color: rgb(210, 225, 225);
 
 }
 
@@ -64,49 +66,11 @@ body{
     float:left;
     position: relative;
     width:20%;
-    background-color: grey;
+    background-color: rgb(210, 225, 225);
     height: auto;   
 }
 
-
-#Botones-navegacion{
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    margin-left: 10px;
-    float:right;
-    position: relative;
-    width:74%;
-    height: auto; 
-    background-color: grey; 
-}
-.sobreMi,.formacionAc,.exp,.habil,.objet{
-    color:white;
-    font-weight: bold;
-    float: left;
-    margin: 4px 40px 5px 30px;
-    font-size: x-large;
-}
-
-.habil:hover{
-    background-color: darkgrey;
-}
-.exp:hover{
-    background-color: darkgrey;
-}
-.formacionAc:hover{
-    background-color: darkgrey;
-}
-.sobreMi:hover{
-  background-color: darkgrey;
-}
-.objet:hover{
-    background-color: darkgrey;
-
-}
-
-
-#contenido-CV{
+#contenido-cv{
     margin-top: 20px;
     margin-left: 90px;
     padding: 0;
@@ -115,81 +79,183 @@ body{
     background-color: white;
     border-color: grey;
     border-radius: 5px;
-    display: flex;
-
+    display: flex;  
 }
-section{
-    margin: 25px;
-    width: 55%;
+
+.wrap{
+    
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    float:right;
+    position: relative;
+    width: 97%;
+    height: auto; 
+}
+ul.tabs{
+	width: 100%;
+	background: lightslategray;
+	list-style: none;
+	display: flex;
+}
+
+
+ul.tabs li{
+    list-style: none;
+	width: 18%;
+}
+
+ul.tabs li a{
+  
+    color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+
+	display: block;
+	padding: 20px 0px;
+}
+
+.active{
+    background: #0984cc;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+
+#contenido-CV{
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.secciones{
+    margin: 30px 25px 25px 25px;
+    width: 60%;
     position: relative;
     float: left;
     border-radius: 15px;
     border-color: grey;
-    background-color: lavenderblush;
+    background-color: rgb(210, 225, 225);
 
 }
+
+
+.sobremi{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    margin: 10px 30px 10px 30px;
+    text-align: justify;
+}
+
+.formac{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+     color: black;
+     margin: 10px 30px 10px 30px;
+     text-align: justify;
+    
+}
+
+
+
+#formacion ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    margin: 10px 30px 10px 60px;
+    text-align: justify;
+}
+
+#experiencia p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    margin: 10px 30px 10px 30px;
+    text-align: justify;
+}
+#experiencia ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    margin: 10px 30px 10px 60px;
+    text-align: justify;
+}
+
+#habilidades ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    margin: 10px 30px 10px 60px;
+    text-align: justify;
+}
+
+
+#objetivos p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    margin: 10px 30px 10px 30px;
+    text-align: justify;
+}
+
+
 aside{
     height: fit-content;
-    margin: 25px auto 25px auto;
+    margin: 30px 25px 25px 25px;
     width: 30%;
     position: relative;
     float: right;
     border-radius: 15px;
     border-color: grey;
-    background-color: lavenderblush;
+    background-color: rgb(210, 225, 225);
+ 
 
 }
-.aside-info{
-    font-weight: 200;
-    margin: 50px 10px 10px 30px;
-    font-size: 1.5em;
-
-}
-span{
-    font-weight: bold;
-    font-size: 1em ;
-    text-decoration: underline;
+aside ul li{
+    color: black;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    margin: 10px 30px 10px 30px;
 }
 
-h2 {
+
+
+
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: 35px 0 0 35px;
     display: inline-block;
     color: black;
 }
-section,p,ul{
 
-text-align: justify;   
-    margin: 35px 35px 35px 35px;
-    display: block;
-    font-size: 1.5em;
-}
+
+
+ 
+
+
 footer{
-    background-color: black;
-    position: relative;
-    bottom: auto;
     width: 100%;
-    height: 75px;
-    color: white;
-  }
-  footer p{
-    margin-top: 25px;
-    text-align:center;
-    color: white;
+    height: 100px;
+    position: relative;
+    background-color: black;
+}
+footer p{
+    text-align: center;
+    color: aliceblue;
     font-weight: bold;
-    font-size: medium;
-  }
+    font-size: x-large;
+}
 
-#sobre-mi{
-    display: block;
-}
-#formacion{
-    display: none;
-}
-#experiencia{
-    display: none;
-}
-#habilidades{
-    display: none;
-}
-#objetivos{
-    display: none;
-}
+
